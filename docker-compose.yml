@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  nginx:
+    image: home-api-gateway
+    ports:
+      - "1111:80"
